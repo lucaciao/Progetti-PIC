@@ -1,0 +1,34 @@
+Progetto PIC
+
+//interrupt vector
+#pragma come InterruptVectorHigh = 0x08
+
+void InterruptVectorHigh (void)
+{
+	_asm //vuol dire ceh è scritta in assembly
+	goto nterruptVectorHigh //vai a interrupt handler high
+	_endasm
+}
+
+
+
+
+
+
+
+condensatore utilizizzato per eliminare il reboundd dei 
+
+configurare linee porta A
+getire la linea RA4 collegata da un led
+
+accendere il led quando viene premuto un pulsante
+
+
+
+PORTAbits.RA0= cambia bit porta
+
+porta A linea RA0
+
+
+TRISA=0b11101111 			setta la ogni linea in input o output
+PORTA				setta tutti gli output della porta A a 0
