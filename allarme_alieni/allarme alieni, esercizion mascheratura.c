@@ -11,6 +11,6 @@ void main (void)
         {
             PORTAbits.RA7=1;
         }else
-            PORTAbits.RA7=1;
+            PORTAbits.RA7=0;
     }
 }
