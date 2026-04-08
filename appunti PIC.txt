@@ -5,7 +5,7 @@ Progetto PIC
 
 void InterruptVectorHigh (void)
 {
-	_asm //vuol dire ceh è scritta in assembly
+	_asm //vuol dire che è scritta in assembly
 	goto nterruptVectorHigh //vai a interrupt handler high
 	_endasm
 }
